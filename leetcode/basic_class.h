@@ -1,7 +1,8 @@
 //======== Basic Class in C++ =================
 //
 // Lien Ly
-// Debug C++ class syntax
+// Debug C++ class syntax from Hackerrank.com 
+// 30 Days of Code
 //=============================================
 // basic_class.h
 #ifndef BASICCLASS_H
