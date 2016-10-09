@@ -1,3 +1,8 @@
+//======== Basic Class in C++ =================
+//
+// Lien Ly
+// Debug C++ class syntax
+//=============================================
 // basic_class.h
 #ifndef BASICCLASS_H
 #define BASICCLASS_H
@@ -27,7 +32,7 @@ Person::Person(int initialAge) {
 }
 
 void Person::amIOld() {
-	// Do some computations in here and print out the correct statement to the console 
+	// Do some computations here and print out the correct statement to the console 
 	if (age < 13) {
 		cout << "You are young." << endl;
 	}
@@ -41,7 +46,7 @@ void Person::amIOld() {
 }
 
 void Person::yearPasses() {
-	// Increment the age of the person in here
+	// Increment the age of the person here
 	++age;
 }
 
