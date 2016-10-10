@@ -1,3 +1,10 @@
+//=============================================
+// 
+// Lien Ly 
+// Basic C++ algorithm - selection sort
+// 
+// mergeIntervals.cpp
+//=============================================
 #include "SelectionSort.h"
 
 int * SelectionSort::selection_sort_array(int arr[], int size)

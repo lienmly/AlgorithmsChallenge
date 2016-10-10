@@ -1,10 +1,14 @@
+//=============================================
+// 
+// Lien Ly
+// Challenge from leetcode.com 
+//
+// ConsecutiveOnes.cpp
+//=============================================
 #include "ConsecutiveOnes.h"
 
 int ConsecutiveOnes::findConsecutiveOnes(int n)
 {
-	/*int n;*/
-	/*cin >> n;*/
-
 	int num = n;
 	vector<int> temp = {};
 
@@ -17,8 +21,8 @@ int ConsecutiveOnes::findConsecutiveOnes(int n)
 	int sz = temp.size();
 	int counter = 0;
 	int maxCount = 0; 
+
 	for (int i = sz - 1; i >= 0; i--) {
-		/*cout << temp[i] << " "; */
 		if (temp[i] == 1) counter++;
 		else {
 			if (counter > maxCount) maxCount = counter;
@@ -26,6 +30,7 @@ int ConsecutiveOnes::findConsecutiveOnes(int n)
 			counter = 0;
 		}
 	}
+
 	if (counter > maxCount) maxCount = counter; 
 	cout << endl;
 	return maxCount; 

@@ -1,3 +1,11 @@
+//=============================================
+// 
+// Lien Ly 
+// Main file where all the tests for classes 
+// take place
+// 
+// Source.cpp
+//=============================================
 #include <iostream>
 #include <string>
 #include <algorithm>

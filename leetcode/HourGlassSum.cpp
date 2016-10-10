@@ -1,3 +1,11 @@
+//=============================================
+// 
+// Lien Ly - basic C++ syntax
+// Challenge from hackerrank.com 
+// 30 days of code 
+// 
+// HourGlassSum.cpp
+//=============================================
 #include "HourGlassSum.h"
 
 int HourGlassSum::findSum(int arr[6][6])

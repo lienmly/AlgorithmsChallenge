@@ -1,7 +1,7 @@
 //=============================================
 // 
 // Lien Ly 
-// Challenge from hackerrank.com - Merge two 
+// Challenge from firecode.io - Merge two 
 // sorted arrays 
 // 
 // merge2SortedArrays.h

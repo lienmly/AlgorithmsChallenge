@@ -1,3 +1,10 @@
+//=============================================
+// 
+// Lien Ly - Dynamic Programming
+// Challenge from hackerrank.com 
+// 
+// StockPrice.cpp
+//=============================================
 #include "DP_StockPrice.h"
 
 int maxProfitStockPrice::maxProfit(vector<int>& price)

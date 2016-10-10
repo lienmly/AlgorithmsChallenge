@@ -1,3 +1,10 @@
+//=============================================
+// 
+// Lien Ly 
+// 30 days of code - hackerrank.com
+// 
+// SumOf2Ints.cpp
+//=============================================
 #include "SumOf2Ints.h"
 
 int SumOf2Ints::getSum(int a, int b)

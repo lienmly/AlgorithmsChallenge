@@ -1,3 +1,10 @@
+//=============================================
+// 
+// Lien Ly
+// Challenge from leetcode.com 
+// 
+// CountBits.cpp
+//=============================================
 #include "CountBits.h"
 
 using namespace std; 

@@ -1,3 +1,10 @@
+//=============================================
+// 
+// Lien Ly 
+// Challenge from firecode.io 
+// 
+// FirstNoneDuplicate.cpp
+//=============================================
 #include "FirstNoneDuplicate.h"
 #include <map>
 
