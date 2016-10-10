@@ -1,4 +1,11 @@
+//=============================================
+// 
+// Lien Ly 
+// Challenge from hackerrank.com - Find the max
+// sum of hour glass region in given array
+// 
 // HourGlassSum.h
+//=============================================
 #ifndef HOURGLASSSUM_H
 #define HOURGLASSSUM_H
 

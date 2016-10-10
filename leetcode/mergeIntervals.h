@@ -1,4 +1,11 @@
+//=============================================
+// 
+// Lien Ly 
+// Challenge from hackerrank.com - Merge and 
+// sort intervals
+// 
 // mergeIntervals.h
+//=============================================
 #ifndef MERGEINTERVALS_H
 #define MERGEINTERVALS_H
 

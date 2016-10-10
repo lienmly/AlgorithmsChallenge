@@ -1,3 +1,11 @@
+//======== Basic Class in C++ =================
+//
+// Lien Ly
+// Debug C++ class syntax from Hackerrank.com 
+// 30 Days of Code
+//
+// basic_operators.cpp
+//=============================================
 #include "basic_operators.h"
 
 void BO::practiceOperator()
@@ -14,7 +22,8 @@ void BO::practiceOperator()
 	cin >> tipPercent;
 	cout << "tax percent: "; // 5 
 	cin >> taxPercent;
-	totalCost = mealCost + mealCost*(tipPercent / 100) + mealCost*(taxPercent / 100); // result: 13
+
+	totalCost = mealCost + mealCost*(tipPercent / 100) + mealCost*(taxPercent / 100); 
 	totalCost_dec = mealCost + mealCost*(tipPercent / 100) + mealCost*(taxPercent / 100); 
 
 	if (totalCost_dec - (double)totalCost >= 0.5)

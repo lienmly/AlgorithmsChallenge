@@ -33,9 +33,6 @@
     <ClCompile Include="merge2SortedArrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GooglePhoneScreen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SelectionSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -43,9 +40,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="basic_operators.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="DP_StockPriceGoogle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ConsecutiveOnes.cpp">
@@ -66,6 +60,12 @@
     <ClCompile Include="leetcode77.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DP_StockPrice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsecutiveColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CountBits.h">
@@ -83,9 +83,6 @@
     <ClInclude Include="merge2SortedArrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GooglePhoneScreen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SelectionSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -96,9 +93,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="basic_class.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DP_StockPriceGoogle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ConsecutiveOnes.h">
@@ -117,6 +111,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="leetcode77.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DP_StockPrice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsecutiveColors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,4 +1,4 @@
-#include "GooglePhoneScreen.h"
+#include "ConsecutiveColors.h"
 
 void GPS::changeColor(int row, int col , int grid[][9])
 {

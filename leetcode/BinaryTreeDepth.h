@@ -1,4 +1,11 @@
+//======== Binary Tree Depth =================
+//
+// Lien Ly
+// Challenge from leetcode.com - Find depth of 
+// Binary Tree 
+//
 // BinaryTreeDepth.h
+//=============================================
 #ifndef BINARYTREEDEPTH_H
 #define BINARYTREEDEPTH_H
 

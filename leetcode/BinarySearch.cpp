@@ -1,3 +1,10 @@
+//======== Basic Class in C++ =================
+//
+// Lien Ly
+// C++ Basic Algorithm
+//
+// BinarySearch.cpp
+//=============================================
 #include "BinarySearch.h"
 #include "math.h"
 
@@ -9,13 +16,6 @@ int BinarySearch::search(vector<int>& searchArray, int value, int left)
 	right = n - 1;
 	mid = n / 2;
 	while (left <= right) {
-
-		// 		iterator++; 
-		// 		if (iterator > log2(searchArray.size() + 1)) {
-		// 			// In case 'value' is not in 'searchArray'
-		// 			return -1; 
-		// 		}
-
 		if (value > searchArray[mid])
 			left = mid + 1;
 		else if (value < searchArray[mid])

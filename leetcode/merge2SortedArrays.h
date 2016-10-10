@@ -1,4 +1,11 @@
+//=============================================
+// 
+// Lien Ly 
+// Challenge from hackerrank.com - Merge two 
+// sorted arrays 
+// 
 // merge2SortedArrays.h
+//=============================================
 #ifndef M2SA_H
 #define M2SA_H
 

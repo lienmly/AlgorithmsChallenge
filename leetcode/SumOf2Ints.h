@@ -1,4 +1,10 @@
+//=============================================
+// 
+// Lien Ly 
+// 30 days of code - hackerrank.com
+// 
 // SumOf2Ints.h
+//=============================================
 #ifndef SUMOF2INTS_H
 #define SUMOF2INTS_H
 
@@ -9,10 +15,7 @@ using namespace std;
 
 class SumOf2Ints {
 public:
-	//vector<int> countBits(int);
 	int getSum(int, int);
-private:
-	//string toBinary(int);
 };
 
 #endif

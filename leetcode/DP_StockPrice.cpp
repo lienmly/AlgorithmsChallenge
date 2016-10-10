@@ -1,4 +1,4 @@
-#include "DP_StockPriceGoogle.h"
+#include "DP_StockPrice.h"
 
 int maxProfitStockPrice::maxProfit(vector<int>& price)
 {

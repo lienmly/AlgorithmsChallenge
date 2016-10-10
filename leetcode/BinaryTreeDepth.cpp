@@ -1,8 +1,19 @@
+//======== Binary Tree Depth =================
+//
+// Lien Ly
+// Challenge from leetcode.com
+//
+// BinaryTreeDepth.cpp
+//=============================================
 #include "BinaryTreeDepth.h"
 
 int BinaryTreeDepth::maxDepth(TreeNode * root)
 {
-	// base case 
+	//===============================
+	// Recursive method
+	//===============================
+
+	// Base case 
 	if (!root) return 0;
 
 	int leftDepth = maxDepth(root->left);
@@ -12,7 +23,9 @@ int BinaryTreeDepth::maxDepth(TreeNode * root)
 	else return 1 + rightDepth;
 
 
-	//return 1 + (leftDepth>rightDepth?leftDepth:rightDepth);
+	//===============================
+	// Iterative method
+	//===============================
 
 	// int depth = 0; 
 

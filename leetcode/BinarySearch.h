@@ -1,4 +1,10 @@
-// BinaryTreeDepth.h
+//======== Binary Search ======================
+//
+// Lien Ly
+// C++ Basic Algorithm 
+//
+// BinarySearch.h
+//=============================================
 #ifndef BINARYSEARCH_H
 #define BINARYSEARCH_H
 

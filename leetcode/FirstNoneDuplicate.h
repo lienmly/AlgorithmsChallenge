@@ -1,4 +1,11 @@
-// SelectionSort.h
+//=============================================
+// 
+// Lien Ly 
+// Challenge from firecode.io - Find the first 
+// Non Duplicate Character in a String
+// 
+// FirstNoneDuplicate.h
+//=============================================
 #ifndef FirstNoneDup_H
 #define FirstNoneDup_H
 

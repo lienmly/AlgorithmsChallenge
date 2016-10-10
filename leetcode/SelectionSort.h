@@ -1,4 +1,10 @@
-// SelectionSort.h
+//=============================================
+// 
+// Lien Ly 
+// Basic C++ algorithm - selection sort
+// 
+// mergeIntervals.h
+//=============================================
 #ifndef SelectionSort_H
 #define SelectionSort_H
 
