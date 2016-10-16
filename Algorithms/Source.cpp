@@ -1,8 +1,7 @@
 //=============================================
 // 
 // Lien Ly 
-// Main file where all the tests for classes 
-// take place
+// Debug file 
 // 
 // Source.cpp
 //=============================================
