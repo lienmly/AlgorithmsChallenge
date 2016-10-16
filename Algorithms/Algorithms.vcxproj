@@ -56,6 +56,9 @@
     <ClInclude Include="Include\01-50\Challenge16.h" />
     <ClInclude Include="Include\01-50\Challenge17.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{57A27991-9C35-44B2-BE64-36AA67051CAD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
