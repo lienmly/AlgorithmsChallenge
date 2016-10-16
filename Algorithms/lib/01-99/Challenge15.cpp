@@ -5,7 +5,7 @@
 // 
 // SumOf2Ints.cpp
 //=============================================
-#include "SumOf2Ints.h"
+#include "Challenge15.h"
 
 int SumOf2Ints::getSum(int a, int b)
 {

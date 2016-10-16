@@ -5,7 +5,7 @@
 // 
 // merge2SortedArrays.cpp
 //=============================================
-#include "merge2SortedArrays.h"
+#include "Challenge12.h"
 
 int * M2SA::merge(int arr_left[], int sz_left, int arr_right[], int sz_right)
 {

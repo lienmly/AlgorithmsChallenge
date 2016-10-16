@@ -17,6 +17,8 @@ using namespace std;
 
 class FND {
 public:
+	FND() {};
+	~FND() = default; 
 	char first_non_repeating(string str); 
 };
 

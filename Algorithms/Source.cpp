@@ -6,22 +6,23 @@
 // 
 // Source.cpp
 //=============================================
+#include "Challenge05.h"
+#include "Challenge15.h"
+#include "Challenge01.h"
+#include "Challenge12.h"
+#include "Challenge03.h"
+#include "Challenge14.h"
+#include "Challenge16.h"
+#include "Challenge07.h"
+#include "Challenge17.h"
+#include "Challenge06.h"
+#include "Challenge04.h"
+#include "Challenge08.h"
+
 #include <iostream>
 #include <string>
 #include <algorithm>
 #include <climits>
-#include "CountBits.h"
-#include "SumOf2Ints.h"
-#include "BinarySearch.h"
-#include "merge2SortedArrays.h"
-#include "ConsecutiveColors.h"
-#include "SelectionSort.h"
-#include "basic_operators.h"
-#include "FirstNoneDuplicate.h"
-#include "basic_class.h"
-#include "DP_StockPrice.h"
-#include "ConsecutiveOnes.h"
-#include "HourGlassSum.h"
 
 using namespace std; 
 

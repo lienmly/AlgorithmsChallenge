@@ -19,45 +19,45 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic_operators.cpp" />
-    <ClCompile Include="BinarySearch.cpp" />
-    <ClCompile Include="BinaryTreeDepth.cpp" />
-    <ClCompile Include="ConsecutiveOnes.cpp" />
-    <ClCompile Include="CountBits.cpp" />
-    <ClCompile Include="DP_StockPrice.cpp" />
-    <ClCompile Include="FirstNoneDuplicate.cpp" />
-    <ClCompile Include="ConsecutiveColors.cpp" />
-    <ClCompile Include="HourGlassSum.cpp" />
-    <ClCompile Include="leetcode13.cpp" />
-    <ClCompile Include="leetcode219.cpp" />
-    <ClCompile Include="leetcode77.cpp" />
-    <ClCompile Include="merge2SortedArrays.cpp" />
-    <ClCompile Include="mergeIntervals.cpp" />
-    <ClCompile Include="SelectionSort.cpp" />
+    <ClCompile Include="lib\01-99\Challenge01.cpp" />
+    <ClCompile Include="lib\01-99\Challenge02.cpp" />
+    <ClCompile Include="lib\01-99\Challenge03.cpp" />
+    <ClCompile Include="lib\01-99\Challenge04.cpp" />
+    <ClCompile Include="lib\01-99\Challenge05.cpp" />
+    <ClCompile Include="lib\01-99\Challenge06.cpp" />
+    <ClCompile Include="lib\01-99\Challenge07.cpp" />
+    <ClCompile Include="lib\01-99\Challenge08.cpp" />
+    <ClCompile Include="lib\01-99\Challenge09.cpp" />
+    <ClCompile Include="lib\01-99\Challenge10.cpp" />
+    <ClCompile Include="lib\01-99\Challenge11.cpp" />
+    <ClCompile Include="lib\01-99\Challenge12.cpp" />
+    <ClCompile Include="lib\01-99\Challenge13.cpp" />
+    <ClCompile Include="lib\01-99\Challenge14.cpp" />
+    <ClCompile Include="lib\01-99\Challenge15.cpp" />
+    <ClCompile Include="lib\01-99\Challenge16.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="SumOf2Ints.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basic_class.h" />
-    <ClInclude Include="basic_operators.h" />
-    <ClInclude Include="BinarySearch.h" />
-    <ClInclude Include="BinaryTreeDepth.h" />
-    <ClInclude Include="ConsecutiveOnes.h" />
-    <ClInclude Include="CountBits.h" />
-    <ClInclude Include="DP_StockPrice.h" />
-    <ClInclude Include="FirstNoneDuplicate.h" />
-    <ClInclude Include="ConsecutiveColors.h" />
-    <ClInclude Include="HourGlassSum.h" />
-    <ClInclude Include="leetcode13.h" />
-    <ClInclude Include="leetcode219.h" />
-    <ClInclude Include="leetcode77.h" />
-    <ClInclude Include="merge2SortedArrays.h" />
-    <ClInclude Include="mergeIntervals.h" />
-    <ClInclude Include="SelectionSort.h" />
-    <ClInclude Include="SumOf2Ints.h" />
+    <ClInclude Include="Include\01-99\Challenge01.h" />
+    <ClInclude Include="Include\01-99\Challenge02.h" />
+    <ClInclude Include="Include\01-99\Challenge03.h" />
+    <ClInclude Include="Include\01-99\Challenge04.h" />
+    <ClInclude Include="Include\01-99\Challenge05.h" />
+    <ClInclude Include="Include\01-99\Challenge06.h" />
+    <ClInclude Include="Include\01-99\Challenge07.h" />
+    <ClInclude Include="Include\01-99\Challenge08.h" />
+    <ClInclude Include="Include\01-99\Challenge09.h" />
+    <ClInclude Include="Include\01-99\Challenge10.h" />
+    <ClInclude Include="Include\01-99\Challenge11.h" />
+    <ClInclude Include="Include\01-99\Challenge12.h" />
+    <ClInclude Include="Include\01-99\Challenge13.h" />
+    <ClInclude Include="Include\01-99\Challenge14.h" />
+    <ClInclude Include="Include\01-99\Challenge15.h" />
+    <ClInclude Include="Include\01-99\Challenge16.h" />
+    <ClInclude Include="Include\01-99\Challenge17.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{110C3F4E-81BA-4C34-8E16-FCD868437D94}</ProjectGuid>
+    <ProjectGuid>{57A27991-9C35-44B2-BE64-36AA67051CAD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>leetcode</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -128,6 +128,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\include\01-99;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -158,6 +159,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

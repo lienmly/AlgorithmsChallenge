@@ -5,7 +5,7 @@
 // 
 // FirstNoneDuplicate.cpp
 //=============================================
-#include "FirstNoneDuplicate.h"
+#include "Challenge07.h"
 #include <map>
 
 char FND::first_non_repeating(string str)

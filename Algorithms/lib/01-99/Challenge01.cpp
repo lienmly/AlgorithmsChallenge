@@ -5,7 +5,7 @@
 //
 // BinarySearch.cpp
 //=============================================
-#include "BinarySearch.h"
+#include "Challenge01.h"
 #include "math.h"
 
 int BinarySearch::search(vector<int>& searchArray, int value, int left)

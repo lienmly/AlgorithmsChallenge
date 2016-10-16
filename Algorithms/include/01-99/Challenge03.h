@@ -1,6 +1,6 @@
 //=============================================
 // 
-// Lien Ly - Google phone screen
+// Lien Ly 
 // You have a n by n grid of stones which are 
 // red or blue. Give a coordinate on this grid, 
 // perform the following: If the stone is blue, 
@@ -29,11 +29,3 @@ public:
 };
 
 #endif
-
-// 
-
-// 
-
-// 
-
-// 

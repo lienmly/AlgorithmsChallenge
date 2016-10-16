@@ -5,7 +5,7 @@
 // 
 // StockPrice.cpp
 //=============================================
-#include "DP_StockPrice.h"
+#include "Challenge06.h"
 
 int maxProfitStockPrice::maxProfit(vector<int>& price)
 {

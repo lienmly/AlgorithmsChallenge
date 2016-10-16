@@ -5,7 +5,7 @@
 //
 // BinaryTreeDepth.cpp
 //=============================================
-#include "BinaryTreeDepth.h"
+#include "Challenge02.h"
 
 int BinaryTreeDepth::maxDepth(TreeNode * root)
 {

@@ -15,108 +15,108 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CountBits.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SumOf2Ints.cpp">
+    <ClCompile Include="lib\01-99\Challenge01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinaryTreeDepth.cpp">
+    <ClCompile Include="lib\01-99\Challenge02.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BinarySearch.cpp">
+    <ClCompile Include="lib\01-99\Challenge03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="merge2SortedArrays.cpp">
+    <ClCompile Include="lib\01-99\Challenge04.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SelectionSort.cpp">
+    <ClCompile Include="lib\01-99\Challenge05.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FirstNoneDuplicate.cpp">
+    <ClCompile Include="lib\01-99\Challenge06.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="basic_operators.cpp">
+    <ClCompile Include="lib\01-99\Challenge07.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConsecutiveOnes.cpp">
+    <ClCompile Include="lib\01-99\Challenge08.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HourGlassSum.cpp">
+    <ClCompile Include="lib\01-99\Challenge09.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mergeIntervals.cpp">
+    <ClCompile Include="lib\01-99\Challenge10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="leetcode13.cpp">
+    <ClCompile Include="lib\01-99\Challenge11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="leetcode219.cpp">
+    <ClCompile Include="lib\01-99\Challenge12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="leetcode77.cpp">
+    <ClCompile Include="lib\01-99\Challenge13.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DP_StockPrice.cpp">
+    <ClCompile Include="lib\01-99\Challenge14.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ConsecutiveColors.cpp">
+    <ClCompile Include="lib\01-99\Challenge15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\01-99\Challenge16.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CountBits.h">
+    <ClInclude Include="Include\01-99\Challenge01.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SumOf2Ints.h">
+    <ClInclude Include="Include\01-99\Challenge02.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BinaryTreeDepth.h">
+    <ClInclude Include="Include\01-99\Challenge03.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BinarySearch.h">
+    <ClInclude Include="Include\01-99\Challenge04.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="merge2SortedArrays.h">
+    <ClInclude Include="Include\01-99\Challenge05.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SelectionSort.h">
+    <ClInclude Include="Include\01-99\Challenge06.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="basic_operators.h">
+    <ClInclude Include="Include\01-99\Challenge07.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FirstNoneDuplicate.h">
+    <ClInclude Include="Include\01-99\Challenge08.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="basic_class.h">
+    <ClInclude Include="Include\01-99\Challenge09.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConsecutiveOnes.h">
+    <ClInclude Include="Include\01-99\Challenge10.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HourGlassSum.h">
+    <ClInclude Include="Include\01-99\Challenge11.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="mergeIntervals.h">
+    <ClInclude Include="Include\01-99\Challenge12.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="leetcode13.h">
+    <ClInclude Include="Include\01-99\Challenge13.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="leetcode219.h">
+    <ClInclude Include="Include\01-99\Challenge14.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="leetcode77.h">
+    <ClInclude Include="Include\01-99\Challenge15.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DP_StockPrice.h">
+    <ClInclude Include="Include\01-99\Challenge16.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ConsecutiveColors.h">
+    <ClInclude Include="Include\01-99\Challenge17.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -6,7 +6,7 @@
 // 
 // HourGlassSum.cpp
 //=============================================
-#include "HourGlassSum.h"
+#include "Challenge08.h"
 
 int HourGlassSum::findSum(int arr[6][6])
 {

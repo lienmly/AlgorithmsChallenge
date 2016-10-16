@@ -4,7 +4,7 @@
 // 
 // ConsecutiveColors.cpp
 //=============================================
-#include "ConsecutiveColors.h"
+#include "Challenge03.h"
 
 void GPS::changeColor(int row, int col , int grid[][9])
 {

@@ -5,7 +5,7 @@
 // 
 // mergeIntervals.cpp
 //=============================================
-#include "mergeIntervals.h"
+#include "Challenge13.h"
 
 vector<Interval> MergeIntervals::sortAndMerge(vector<Interval>&)
 {

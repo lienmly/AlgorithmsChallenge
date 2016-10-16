@@ -5,7 +5,7 @@
 //
 // ConsecutiveOnes.cpp
 //=============================================
-#include "ConsecutiveOnes.h"
+#include "Challenge04.h"
 
 int ConsecutiveOnes::findConsecutiveOnes(int n)
 {
