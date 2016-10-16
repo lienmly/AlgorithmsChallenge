@@ -1,5 +1,5 @@
 # Algorithm Problems
-This repository contains solutions to C++ practices, as well as solutions to challenges from various coding websites including leetcode, hackerrank, firecode, etc. 
+This repository contains solutions to C++ practices, as well as solutions to challenges from various coding websites including leetcode, hackerrank, firecode, gameinstitute, etc. 
 Please feel free to take a look. 
 
 I am currently experimenting with [Google Test](https://github.com/google/googletest). 
