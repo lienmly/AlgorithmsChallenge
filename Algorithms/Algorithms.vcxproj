@@ -128,7 +128,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\include\01-99;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\include\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

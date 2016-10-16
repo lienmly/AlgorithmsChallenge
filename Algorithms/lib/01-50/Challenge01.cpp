@@ -8,7 +8,7 @@
 #include "Challenge01.h"
 #include "math.h"
 
-int BinarySearch::search(vector<int>& searchArray, int value, int left)
+int Challenge01::search(vector<int>& searchArray, int value, int left)
 {
 	int right, mid, n;
 

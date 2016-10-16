@@ -75,12 +75,12 @@ int main() {
 	si.getSum(2147483647, -2147483648LL);*/
 
 	// ------------------------------
-	// Binary Search
+	// Challenge01 - Binary Search
 	// ------------------------------
-	//BinarySearch bs; 
-	//vector<int> bstest = {-2000, -340, -200, -89, -41, -22, - 7, 2, 33, 42, 69, 73, 101, 431}; 
-	//vector<int> bstest1 = { 5, 15 };
-	//cout << "position: " << bs.search(bstest, 431) << endl; // Return 8
+	Challenge01 c01;
+	vector<int> c1_test = {-2000, -340, -200, -89, -41, -22, - 7, 2, 33, 42, 69, 73, 101, 431}; 
+	vector<int> c1_test1 = { 5, 15 };
+	cout << "position: " << c01.search(c1_test, 33, 0) << endl; // Return 8
 
 	// ------------------------------
 	// Merge 2 sorted arrays 

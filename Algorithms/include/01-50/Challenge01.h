@@ -5,8 +5,8 @@
 //
 // BinarySearch.h
 //=============================================
-#ifndef BINARYSEARCH_H
-#define BINARYSEARCH_H
+#ifndef CHALLENGE01_H
+#define CHALLENGE01_H
 
 #include <iostream>
 #include <string>
@@ -14,7 +14,7 @@
 
 using namespace std;
 
-class BinarySearch {
+class Challenge01 {
 public:
 	int search(vector<int>&, int, int);
 private:
