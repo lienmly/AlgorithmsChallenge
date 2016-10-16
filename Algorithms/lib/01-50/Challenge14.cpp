@@ -1,13 +1,13 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
-// Basic C++ algorithm - selection sort
+// Basic C++ algorithm  
 // 
-// mergeIntervals.cpp
-//=============================================
+// Challenge14.cpp - selection sort
+//=====================================================================================
 #include "Challenge14.h"
 
-int * SelectionSort::selection_sort_array(int arr[], int size)
+int * Challenge14::selection_sort_array(int arr[], int size)
 {
 	for (int i = 0; i < size; i++) {
 		int minIdx = i;

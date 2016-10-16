@@ -1,13 +1,17 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly
 // Challenge from leetcode.com 
+// 
+//-------------------------------------------------------------------------------------
+// Description 
+// Find max number of consecutive ones in a decimal's binary form 
 //
-// ConsecutiveOnes.cpp
-//=============================================
+// Challenge04.cpp - Consecutive Ones
+//=====================================================================================
 #include "Challenge04.h"
 
-int ConsecutiveOnes::findConsecutiveOnes(int n)
+int Challenge04::findConsecutiveOnes(int n)
 {
 	int num = n;
 	vector<int> temp = {};

@@ -1,22 +1,26 @@
-//======== leetcode problem No. 219 ===========
+//=====================================================================================
 //
-// leetcode.com solutions
+// Lien Ly 
+// Challenge from leetcode.com 
 // 
-// Question: Contains Duplicate
-// Given an array of integers and an integer k, 
-// find out whether there there are two distinct 
-// indices i and j in the array such that nums[i] = nums[j] 
-// and the difference between i and j is at most k.
+//-------------------------------------------------------------------------------------
+// Description
+// Given an array of integers and an integer k, find out whether there there are two 
+// distinct indices i and j in the array such that nums[i] = nums[j] and the difference 
+// between i and j is at most k.
 // 
-// Bruteforce: Nested loop through array O(n^2)
+//-------------------------------------------------------------------------------------
+// Approaches
+// Bruteforce: Nested loop through array takes O(n^2)
+// Speed up: Use hash table takes O(n)
 // 
-// Speed up: Use hash table O(n)
-//=============================================
+// Challenge11.cpp - Contains Duplicate
+//=====================================================================================
 #include "Challenge11.h"
 #include <unordered_map>
 #include <cmath> 
 
-bool Solution::containsNearbyDuplicate_bruteforce(std::vector<int>& nums, int k)
+bool Challenge11::containsNearbyDuplicate_bruteforce(std::vector<int>& nums, int k)
 {
 	for (int i = 0; i < nums.size(); i++)
 	{
@@ -29,7 +33,7 @@ bool Solution::containsNearbyDuplicate_bruteforce(std::vector<int>& nums, int k)
 	return false;
 }
 
-bool Solution::containsNearbyDuplicate_fast(std::vector<int>& nums, int k)
+bool Challenge11::containsNearbyDuplicate_fast(std::vector<int>& nums, int k)
 {
 	std::unordered_map<int, int> check;
 	for (int i = 0; i < nums.size(); i++)

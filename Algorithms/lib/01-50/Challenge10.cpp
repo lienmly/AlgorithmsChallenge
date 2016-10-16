@@ -1,8 +1,10 @@
-//======== leetcode problem No. 77 ===========
+//=====================================================================================
 //
-// leetcode.com solutions
+// Lien Ly 
+// Challenge from leetcode.com 
 // 
-// Question: Combinations
+//-------------------------------------------------------------------------------------
+// Description
 // Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 //
 // For example,
@@ -17,10 +19,11 @@
 //	[1, 4],
 //]
 //
-//=============================================
+// Challenge10.cpp - Combinations
+//=====================================================================================
 #include "Challenge10.h"
 
-std::vector<std::vector<int>> Solution::combine(int n, int k)
+std::vector<std::vector<int>> Challenge10::combine(int n, int k)
 {
 	std::vector<std::vector<int>> result;
 
@@ -33,7 +36,7 @@ std::vector<std::vector<int>> Solution::combine(int n, int k)
 	return result;
 }
 
-void Solution::addElem(int n, int k, std::vector<int>& combine, std::vector<std::vector<int>>& result, int start)
+void Challenge10::addElem(int n, int k, std::vector<int>& combine, std::vector<std::vector<int>>& result, int start)
 {
 
 	// Base case 

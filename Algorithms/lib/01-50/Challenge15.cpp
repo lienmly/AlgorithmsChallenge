@@ -1,13 +1,17 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
-// 30 days of code - hackerrank.com
+// Challenge from hackerrank.com 
 // 
-// SumOf2Ints.cpp
-//=============================================
+//-------------------------------------------------------------------------------------
+// Description
+// Sum of two Ints - 30 days of codes
+// 
+// Challenge15.cpp
+//=====================================================================================
 #include "Challenge15.h"
 
-int SumOf2Ints::getSum(int a, int b)
+int Challenge15::getSum(int a, int b)
 {
 	int ret = a;
 	int temp = 0;

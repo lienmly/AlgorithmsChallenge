@@ -1,13 +1,16 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
-// Challenge from hackerrank.com - Find the max
-// sum of hour glass region in given array
+// Challenge from hackerrank.com
 // 
-// HourGlassSum.h
-//=============================================
-#ifndef HOURGLASSSUM_H
-#define HOURGLASSSUM_H
+//-------------------------------------------------------------------------------------
+// Description
+// Find the max sum of hour glass region in given array
+// 
+// Challenge08.h - Hour Glass Sum
+//=====================================================================================
+#ifndef CHALLENGE08_H
+#define CHALLENGE08_H
 
 #include <vector>
 #include <iostream>
@@ -16,8 +19,13 @@
 
 using namespace std;
 
-class HourGlassSum {
+class Challenge08 {
 public:
+	// Constructors & Deconstructors
+	Challenge08() {}
+	~Challenge08() = default;
+
+	// Methods
 	int findSum(int arr[6][6]);
 };
 

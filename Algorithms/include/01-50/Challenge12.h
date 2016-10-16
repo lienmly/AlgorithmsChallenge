@@ -1,13 +1,16 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
-// Challenge from firecode.io - Merge two 
-// sorted arrays 
+// Challenge from firecode.io 
 // 
-// merge2SortedArrays.h
-//=============================================
-#ifndef M2SA_H
-#define M2SA_H
+//-------------------------------------------------------------------------------------
+// Description
+// Merge two sorted arrays 
+// 
+// Challenge12.h - Merge
+//=====================================================================================
+#ifndef CHALLENGE12_H
+#define CHALLENGE12_H
 
 #include <iostream>
 #include <string>
@@ -15,8 +18,13 @@
 
 using namespace std;
 
-class M2SA {
+class Challenge12 {
 public:
+	// Constructors & Deconstructors
+	Challenge12() {}
+	~Challenge12() = default;
+
+	// Methods
 	int* merge(int arr_left[], int sz_left, int arr_right[], int sz_right); 
 };
 

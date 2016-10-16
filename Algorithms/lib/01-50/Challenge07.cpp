@@ -1,14 +1,18 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
 // Challenge from firecode.io 
 // 
-// FirstNoneDuplicate.cpp
-//=============================================
+//-------------------------------------------------------------------------------------
+// Description
+// Find the first Non Duplicate Character in a String
+// 
+// Challenge07.cpp - First None Duplicate
+//=====================================================================================
 #include "Challenge07.h"
 #include <map>
 
-char FND::first_non_repeating(string str)
+char Challenge07::first_non_repeating(string str)
 {
 	map<int, int> strMap = {};
 

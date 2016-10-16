@@ -1,13 +1,16 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
-// Challenge from firecode.io - Find the first 
-// Non Duplicate Character in a String
+// Challenge from firecode.io 
 // 
-// FirstNoneDuplicate.h
-//=============================================
-#ifndef FirstNoneDup_H
-#define FirstNoneDup_H
+//-------------------------------------------------------------------------------------
+// Description
+// Find the first Non Duplicate Character in a String
+// 
+// Challenge07.h - First None Duplicate
+//=====================================================================================
+#ifndef CHALLENGE07_H
+#define CHALLENGE07_H
 
 #include <iostream>
 #include <string>
@@ -15,10 +18,13 @@
 
 using namespace std;
 
-class FND {
+class Challenge07 {
 public:
-	FND() {};
-	~FND() = default; 
+	// Constructors & Deconstructors
+	Challenge07() {};
+	~Challenge07() = default;
+
+	// Methods
 	char first_non_repeating(string str); 
 };
 

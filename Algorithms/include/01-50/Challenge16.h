@@ -1,13 +1,16 @@
-//======== Basic Class in C++ =================
+//=====================================================================================
 //
 // Lien Ly
-// Debug C++ class syntax (operators) from Hackerrank.com 
-// 30 Days of Code
+// Challenge from Hackerrank.com  
+// 
+//-------------------------------------------------------------------------------------
+// Description
+// Debug C++ class syntax (operators) from 30 Days of Code
 //
-// basic_operators.h
-//=============================================
-#ifndef basic_operator_H
-#define basic_operator_H
+// Challenge16.h - Basic Operators
+//=====================================================================================
+#ifndef CHALLENGE16_H
+#define CHALLENGE16_H
 
 #include <iostream>
 #include <string>
@@ -15,8 +18,13 @@
 
 using namespace std;
 
-class BO {
+class Challenge16 {
 public:
+	// Constructors & Deconstructors
+	Challenge16() {}
+	~Challenge16() = default;
+
+	// Methods
 	void practiceOperator(); 
 };
 

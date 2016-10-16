@@ -1,16 +1,17 @@
-//=============================================
+//=====================================================================================
 // 
-// Lien Ly - Dynamic Programming
-// Challenge from hackerrank.com - Given an array
-// of stock prices in a month. Stock can only be 
-// sold before bought again. How should stock be 
-// sold and bought to gain maximum profit? 
+// Lien Ly 
+// Challenge from hackerrank.com 
 //
-// 
-// StockPrice.h
-//=============================================
-#ifndef DPSPGoogle_H
-#define DPSPGoogle_H
+//-------------------------------------------------------------------------------------
+// Description
+// Given an array of stock prices in a month. Stock can only be sold before bought again. 
+// How should stock be sold and bought to gain maximum profit? 
+//
+// Challenge06.h - Stock Price (Dynamic Programming) 
+//=====================================================================================
+#ifndef CHALLENGE06_H
+#define CHALLENGE06_H
 
 #include <vector>
 #include <iostream>
@@ -19,8 +20,13 @@
 
 using namespace std;
 
-class maxProfitStockPrice {
+class Challenge06 {
 public:
+	// Constructors & Deconstructors
+	Challenge06() {}
+	~Challenge06() = default;
+
+	// Methods
 	int maxProfit(vector<int>&); 
 };
 

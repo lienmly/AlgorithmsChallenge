@@ -1,16 +1,19 @@
-//======== leetcode problem No. 13 ============
+//=====================================================================================
 //
-// leetcode.com solutions
+// Lien Ly 
+// Challenge from leetcode.com 
 // 
-// Question: Roman to Integer
-// Given a roman numeral, convert it to an integer.
-// Input is guaranteed to be within the range from 1 to 3999.
+//-------------------------------------------------------------------------------------
+// Description
+// Given a roman numeral, convert it to an integer. Input is guaranteed to be within 
+// the range from 1 to 3999.
 // 
-//=============================================
+// Challenge09.cpp - Roman to Integer
+//=====================================================================================
 #include "Challenge09.h"
 #include <iostream> 
 
-int Solution::convertChar(char& c)
+int Challenge09::convertChar(char& c)
 {
 	switch (c)
 	{
@@ -31,7 +34,7 @@ int Solution::convertChar(char& c)
 	}
 }
 
-int Solution::romanToInt(std::string s)
+int Challenge09::romanToInt(std::string s)
 {
 	int result = 0;
 	for (int i = 0; i < s.size() - 1; ++i)

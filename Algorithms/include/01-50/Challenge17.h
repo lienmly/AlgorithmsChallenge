@@ -1,13 +1,16 @@
-//======== Basic Class in C++ =================
+//=====================================================================================
 //
 // Lien Ly
-// Debug C++ class syntax from Hackerrank.com 
-// 30 Days of Code
+// Challenge from Hackerrank.com  
+// 
+//-------------------------------------------------------------------------------------
+// Description
+// Debug C++ class from 30 Days of Code
 //
-// basic_class.h
-//=============================================
-#ifndef BASICCLASS_H
-#define BASICCLASS_H
+// Challenge17.h - Basic Class
+//=====================================================================================
+#ifndef CHALLENGE17_H
+#define CHALLENGE17_H
 
 #include <iostream>
 #include <string>
@@ -15,15 +18,21 @@
 
 using namespace std;
 
-class Person {
+class Person_C17 {
 public:
+	// Members
 	int age;
-	Person(int initialAge);
+
+	// Constructors & Deconstructors 
+	Person_C17(int initialAge);
+	~Person_C17() = default;
+
+	// Methods
 	void amIOld();
 	void yearPasses();
 };
 
-Person::Person(int initialAge) {
+Person_C17::Person_C17(int initialAge) {
 	// Add some more code to run some checks on initialAge
 	if (initialAge < 0) {
 		age = 0;
@@ -33,7 +42,7 @@ Person::Person(int initialAge) {
 		age = initialAge; 
 }
 
-void Person::amIOld() {
+void Person_C17::amIOld() {
 	// Do some computations here and print out the correct statement to the console 
 	if (age < 13) {
 		cout << "You are young." << endl;
@@ -47,7 +56,7 @@ void Person::amIOld() {
 
 }
 
-void Person::yearPasses() {
+void Person_C17::yearPasses() {
 	// Increment the age of the person here
 	++age;
 }

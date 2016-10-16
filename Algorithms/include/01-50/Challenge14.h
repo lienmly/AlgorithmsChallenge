@@ -1,12 +1,12 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
-// Basic C++ algorithm - selection sort
+// Basic C++ algorithm  
 // 
-// mergeIntervals.h
-//=============================================
-#ifndef SelectionSort_H
-#define SelectionSort_H
+// Challenge14.h - selection sort
+//=====================================================================================
+#ifndef CHALLENGE14_H
+#define CHALLENGE14_H
 
 #include <iostream>
 #include <string>
@@ -14,8 +14,13 @@
 
 using namespace std;
 
-class SelectionSort {
+class Challenge14 {
 public:
+	// Constructors & Deconstructors
+	Challenge14() {}
+	~Challenge14() = default;
+
+	// Methods
 	int* selection_sort_array(int arr[], int size); 
 };
 

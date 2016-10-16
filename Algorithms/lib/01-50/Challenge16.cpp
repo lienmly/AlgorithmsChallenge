@@ -1,14 +1,17 @@
-//======== Basic Class in C++ =================
+//=====================================================================================
 //
 // Lien Ly
-// Debug C++ class syntax from Hackerrank.com 
-// 30 Days of Code
+// Challenge from Hackerrank.com  
+// 
+//-------------------------------------------------------------------------------------
+// Description
+// Debug C++ class syntax (operators) from 30 Days of Code
 //
-// basic_operators.cpp
-//=============================================
+// Challenge16.cpp - Basic Operators
+//=====================================================================================
 #include "Challenge16.h"
 
-void BO::practiceOperator()
+void Challenge16::practiceOperator()
 {
 	double mealCost;
 	double tipPercent;

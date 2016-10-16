@@ -1,13 +1,17 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly 
 // Challenge from firecode.io 
 // 
-// merge2SortedArrays.cpp
-//=============================================
+//-------------------------------------------------------------------------------------
+// Description
+// Merge two sorted arrays 
+// 
+// Challenge12.cpp - Merge
+//=====================================================================================
 #include "Challenge12.h"
 
-int * M2SA::merge(int arr_left[], int sz_left, int arr_right[], int sz_right)
+int * Challenge12::merge(int arr_left[], int sz_left, int arr_right[], int sz_right)
 {
 	int* arr_merged = new int[sz_left + sz_right];
 

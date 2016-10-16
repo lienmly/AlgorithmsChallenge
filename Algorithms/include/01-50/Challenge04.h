@@ -1,13 +1,16 @@
-//=============================================
+//=====================================================================================
 // 
 // Lien Ly
-// Challenge from leetcode.com - Find max # of 
-// consecutive ones in a decimal's binary form 
+// Challenge from leetcode.com 
+// 
+//-------------------------------------------------------------------------------------
+// Description 
+// Find max number of consecutive ones in a decimal's binary form 
 //
-// ConsecutiveOnes.h
-//=============================================
-#ifndef CONSECUTIVECONES_H
-#define CONSECUTIVECONES_H
+// Challenge04.h - Consecutive Ones
+//=====================================================================================
+#ifndef CHALLENGE04_H
+#define CHALLENGE04_H
 
 #include <vector>
 #include <iostream>
@@ -16,8 +19,13 @@
 
 using namespace std;
 
-class ConsecutiveOnes {
+class Challenge04 {
 public:
+	// Constructors & Deconstructors
+	Challenge04() {}
+	~Challenge04() = default;
+
+	// Methods
 	int findConsecutiveOnes(int);
 };
 

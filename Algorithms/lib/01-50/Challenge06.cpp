@@ -1,13 +1,18 @@
-//=============================================
+//=====================================================================================
 // 
-// Lien Ly - Dynamic Programming
+// Lien Ly 
 // Challenge from hackerrank.com 
-// 
-// StockPrice.cpp
-//=============================================
+//
+//-------------------------------------------------------------------------------------
+// Description
+// Given an array of stock prices in a month. Stock can only be sold before bought again. 
+// How should stock be sold and bought to gain maximum profit? 
+//
+// Challenge06.cpp - Stock Price (Dynamic Programming) 
+//=====================================================================================
 #include "Challenge06.h"
 
-int maxProfitStockPrice::maxProfit(vector<int>& price)
+int Challenge06::maxProfit(vector<int>& price)
 {
 	int sz = price.size();
 

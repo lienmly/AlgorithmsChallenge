@@ -1,14 +1,17 @@
-//=============================================
+//=====================================================================================
 // 
-// Lien Ly - basic C++ syntax
-// Challenge from hackerrank.com 
-// 30 days of code 
+// Lien Ly 
+// Challenge from hackerrank.com
 // 
-// HourGlassSum.cpp
-//=============================================
+//-------------------------------------------------------------------------------------
+// Description
+// Find the max sum of hour glass region in given array
+// 
+// Challenge08.cpp - Hour Glass Sum
+//=====================================================================================
 #include "Challenge08.h"
 
-int HourGlassSum::findSum(int arr[6][6])
+int Challenge08::findSum(int arr[6][6])
 {
 	int sz = 6;
 	int maxSum = 0;
