@@ -1,13 +1,14 @@
-//======== Binary Tree Depth =================
+//=====================================================================================
 //
 // Lien Ly
-// Challenge from leetcode.com
+// Challenge from leetcode.com  
 //
-// BinaryTreeDepth.cpp
-//=============================================
+// Challenge02.cpp - Find max depth of Binary Tree
+//=====================================================================================
 #include "Challenge02.h"
+#include<queue>
 
-int BinaryTreeDepth::maxDepth(TreeNode * root)
+int Challenge02::maxDepth_Recursion(TreeNode * root)
 {
 	//===============================
 	// Recursive method
@@ -16,38 +17,40 @@ int BinaryTreeDepth::maxDepth(TreeNode * root)
 	// Base case 
 	if (!root) return 0;
 
-	int leftDepth = maxDepth(root->left);
-	int rightDepth = maxDepth(root->right);
+	int leftDepth = maxDepth_Recursion(root->left);
+	int rightDepth = maxDepth_Recursion(root->right);
 
 	if (leftDepth > rightDepth) return 1 + leftDepth;
 	else return 1 + rightDepth;
+}
 
-
+int Challenge02::maxDepth_Iterative(TreeNode * root)
+{
 	//===============================
-	// Iterative method
+	// Iterative method 
+	// Breadth First Search
 	//===============================
+	 int depth = 0; 
 
-	// int depth = 0; 
+	 if (!root)
+	     return depth; 
 
-	// if (!root)
-	//     return depth; 
+	 queue<TreeNode*> level; 
+	 level.push(root); 
 
-	// queue<TreeNode*> level; 
-	// level.push(root); 
+	 while(!level.empty()){
+	     depth++; 
 
-	// while(!level.empty()){
-	//     depth++; 
+	     int size = level.size(); 
+	     for (int i = 0; i < size; i++){
+	         TreeNode* node = level.front(); 
+	         level.pop(); 
 
-	//     int size = level.size(); 
-	//     for (int i = 0; i < size; i++){
-	//         TreeNode* node = level.front(); 
-	//         level.pop(); 
-
-	//         if (node->left)
-	//             level.push(node->left); 
-	//         if (node->right)
-	//             level.push(node->right); 
-	//     }
-	// }
-	// return depth; 
+	         if (node->left)
+	             level.push(node->left); 
+	         if (node->right)
+	             level.push(node->right); 
+	     }
+	 }
+	 return depth; 
 }

@@ -1,21 +1,25 @@
-//======== Binary Tree Depth =================
+//=====================================================================================
 //
 // Lien Ly
-// Challenge from leetcode.com - Find depth of 
-// Binary Tree 
+// Challenge from leetcode.com  
 //
-// BinaryTreeDepth.h
-//=============================================
-#ifndef BINARYTREEDEPTH_H
-#define BINARYTREEDEPTH_H
+// Challenge02.h - Find max depth of Binary Tree
+//=====================================================================================
+#ifndef CHALLENGE02_H
+#define CHALLENGE02_H
 
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class BinaryTreeDepth {
+class Challenge02 {
 public:
+	// Constructors & Deconstructors
+	Challenge02() {}
+	~Challenge02() = default;
+
+	// Members
 	struct TreeNode {
 		int val;
 		TreeNode *left;
@@ -23,7 +27,9 @@ public:
 		TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 	};
 
-	int maxDepth(TreeNode* root);
+	// Methods
+	int maxDepth_Recursion(TreeNode* root);
+	int maxDepth_Iterative(TreeNode* root);
 private:
 };
 

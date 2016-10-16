@@ -1,10 +1,10 @@
-//======== Binary Search ======================
+//=====================================================================================
 //
 // Lien Ly
 // C++ Basic Algorithm 
 //
-// BinarySearch.h
-//=============================================
+// Challenge01.h - binary search
+//=====================================================================================
 #ifndef CHALLENGE01_H
 #define CHALLENGE01_H
 
@@ -16,6 +16,11 @@ using namespace std;
 
 class Challenge01 {
 public:
+	// Constructors & Deconstructors
+	Challenge01() {}
+	~Challenge01() = default; 
+
+	// Methods 
 	int search(vector<int>&, int, int);
 private:
 };
