@@ -19,42 +19,42 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lib\01-99\Challenge01.cpp" />
-    <ClCompile Include="lib\01-99\Challenge02.cpp" />
-    <ClCompile Include="lib\01-99\Challenge03.cpp" />
-    <ClCompile Include="lib\01-99\Challenge04.cpp" />
-    <ClCompile Include="lib\01-99\Challenge05.cpp" />
-    <ClCompile Include="lib\01-99\Challenge06.cpp" />
-    <ClCompile Include="lib\01-99\Challenge07.cpp" />
-    <ClCompile Include="lib\01-99\Challenge08.cpp" />
-    <ClCompile Include="lib\01-99\Challenge09.cpp" />
-    <ClCompile Include="lib\01-99\Challenge10.cpp" />
-    <ClCompile Include="lib\01-99\Challenge11.cpp" />
-    <ClCompile Include="lib\01-99\Challenge12.cpp" />
-    <ClCompile Include="lib\01-99\Challenge13.cpp" />
-    <ClCompile Include="lib\01-99\Challenge14.cpp" />
-    <ClCompile Include="lib\01-99\Challenge15.cpp" />
-    <ClCompile Include="lib\01-99\Challenge16.cpp" />
+    <ClCompile Include="lib\01-50\Challenge01.cpp" />
+    <ClCompile Include="lib\01-50\Challenge02.cpp" />
+    <ClCompile Include="lib\01-50\Challenge03.cpp" />
+    <ClCompile Include="lib\01-50\Challenge04.cpp" />
+    <ClCompile Include="lib\01-50\Challenge05.cpp" />
+    <ClCompile Include="lib\01-50\Challenge06.cpp" />
+    <ClCompile Include="lib\01-50\Challenge07.cpp" />
+    <ClCompile Include="lib\01-50\Challenge08.cpp" />
+    <ClCompile Include="lib\01-50\Challenge09.cpp" />
+    <ClCompile Include="lib\01-50\Challenge10.cpp" />
+    <ClCompile Include="lib\01-50\Challenge11.cpp" />
+    <ClCompile Include="lib\01-50\Challenge12.cpp" />
+    <ClCompile Include="lib\01-50\Challenge13.cpp" />
+    <ClCompile Include="lib\01-50\Challenge14.cpp" />
+    <ClCompile Include="lib\01-50\Challenge15.cpp" />
+    <ClCompile Include="lib\01-50\Challenge16.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Include\01-99\Challenge01.h" />
-    <ClInclude Include="Include\01-99\Challenge02.h" />
-    <ClInclude Include="Include\01-99\Challenge03.h" />
-    <ClInclude Include="Include\01-99\Challenge04.h" />
-    <ClInclude Include="Include\01-99\Challenge05.h" />
-    <ClInclude Include="Include\01-99\Challenge06.h" />
-    <ClInclude Include="Include\01-99\Challenge07.h" />
-    <ClInclude Include="Include\01-99\Challenge08.h" />
-    <ClInclude Include="Include\01-99\Challenge09.h" />
-    <ClInclude Include="Include\01-99\Challenge10.h" />
-    <ClInclude Include="Include\01-99\Challenge11.h" />
-    <ClInclude Include="Include\01-99\Challenge12.h" />
-    <ClInclude Include="Include\01-99\Challenge13.h" />
-    <ClInclude Include="Include\01-99\Challenge14.h" />
-    <ClInclude Include="Include\01-99\Challenge15.h" />
-    <ClInclude Include="Include\01-99\Challenge16.h" />
-    <ClInclude Include="Include\01-99\Challenge17.h" />
+    <ClInclude Include="Include\01-50\Challenge01.h" />
+    <ClInclude Include="Include\01-50\Challenge02.h" />
+    <ClInclude Include="Include\01-50\Challenge03.h" />
+    <ClInclude Include="Include\01-50\Challenge04.h" />
+    <ClInclude Include="Include\01-50\Challenge05.h" />
+    <ClInclude Include="Include\01-50\Challenge06.h" />
+    <ClInclude Include="Include\01-50\Challenge07.h" />
+    <ClInclude Include="Include\01-50\Challenge08.h" />
+    <ClInclude Include="Include\01-50\Challenge09.h" />
+    <ClInclude Include="Include\01-50\Challenge10.h" />
+    <ClInclude Include="Include\01-50\Challenge11.h" />
+    <ClInclude Include="Include\01-50\Challenge12.h" />
+    <ClInclude Include="Include\01-50\Challenge13.h" />
+    <ClInclude Include="Include\01-50\Challenge14.h" />
+    <ClInclude Include="Include\01-50\Challenge15.h" />
+    <ClInclude Include="Include\01-50\Challenge16.h" />
+    <ClInclude Include="Include\01-50\Challenge17.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{57A27991-9C35-44B2-BE64-36AA67051CAD}</ProjectGuid>
