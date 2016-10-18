@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="lib\01-50\Challenge18.cpp" />
     <ClCompile Include="lib\01-50\Challenge01.cpp" />
     <ClCompile Include="lib\01-50\Challenge02.cpp" />
     <ClCompile Include="lib\01-50\Challenge03.cpp" />
@@ -35,6 +36,7 @@
     <ClCompile Include="lib\01-50\Challenge14.cpp" />
     <ClCompile Include="lib\01-50\Challenge15.cpp" />
     <ClCompile Include="lib\01-50\Challenge16.cpp" />
+    <ClCompile Include="lib\01-50\Challenge19.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +57,8 @@
     <ClInclude Include="Include\01-50\Challenge15.h" />
     <ClInclude Include="Include\01-50\Challenge16.h" />
     <ClInclude Include="Include\01-50\Challenge17.h" />
+    <ClInclude Include="Include\01-50\Challenge18.h" />
+    <ClInclude Include="Include\01-50\Challenge19.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
@@ -131,7 +135,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\include\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\lib\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\include\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

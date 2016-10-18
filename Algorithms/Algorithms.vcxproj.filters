@@ -66,6 +66,12 @@
     <ClCompile Include="lib\01-50\Challenge16.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lib\01-50\Challenge18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\01-50\Challenge19.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\01-50\Challenge01.h">
@@ -117,6 +123,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\01-50\Challenge17.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\01-50\Challenge18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\01-50\Challenge19.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
