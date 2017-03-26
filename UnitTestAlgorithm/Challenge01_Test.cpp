@@ -5,37 +5,29 @@
 // ----------------------------------------------------------------------
 // Challenge01 - Binary Search
 // ----------------------------------------------------------------------
-TEST(testChallenge01, test01) {
+TEST(testChallenge01, HandleExistingValues) {
 	Challenge01 c01;
 	vector<int> testVector = {-1000, -285, -99, -2, 1, 7, 88, 190, 200, 999};
-	int result = c01.search(testVector, -1000, 0);
-	EXPECT_EQ(0, result); 
+	EXPECT_EQ(0, c01.search(testVector, -1000, 0));
+	EXPECT_EQ(6, c01.search(testVector, 88, 0));
+	EXPECT_EQ(1, c01.search(testVector, -285, 0));
+	EXPECT_EQ(9, c01.search(testVector, 999, 0));
 }
 
-TEST(testChallenge01, test02) {
+TEST(testChallenge01, HandleNonExistingValues) {
 	Challenge01 c01;
 	vector<int> testVector = { -1000, -285, -99, -2, 1, 7, 88, 190, 200, 999 };
-	int result = c01.search(testVector, 88, 0);
-	EXPECT_EQ(6, result);
+	EXPECT_EQ(-1, c01.search(testVector, 1000, 0));
+	EXPECT_EQ(-1, c01.search(testVector, 72, 0));
+	EXPECT_EQ(-1, c01.search(testVector, -5000, 0));
+	EXPECT_EQ(-1, c01.search(testVector, 800, 0));
 }
 
-TEST(testChallenge01, test03) {
+TEST(testChallenge01, HandleEmptyVector) {
 	Challenge01 c01;
-	vector<int> testVector = { -1000, -285, -99, -2, 1, 7, 88, 190, 200, 999 };
-	int result = c01.search(testVector, 1000, 0);
-	EXPECT_EQ(-1, result);
-}
-
-TEST(testChallenge01, test04) {
-	Challenge01 c01;
-	vector<int> testVector = { -1000, -285, -99, -2, 1, 7, 88, 190, 200, 999 };
-	int result = c01.search(testVector, -285, 0);
-	EXPECT_EQ(1, result);
-}
-
-TEST(testChallenge01, test05) {
-	Challenge01 c01;
-	vector<int> testVector = { -1000, -285, -99, -2, 1, 7, 88, 190, 200, 999 };
-	int result = c01.search(testVector, 999, 0);
-	EXPECT_EQ(9, result);
+	vector<int> testVector = {};
+	EXPECT_EQ(-1, c01.search(testVector, -2, 0));
+	EXPECT_EQ(-1, c01.search(testVector, 999, 0));
+	EXPECT_EQ(-1, c01.search(testVector, -5000, 0));
+	EXPECT_EQ(-1, c01.search(testVector, 800, 0));
 }
