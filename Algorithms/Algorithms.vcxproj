@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="lib\01-50\Challenge20.cpp" />
     <ClCompile Include="lib\01-50\Challenge18.cpp" />
     <ClCompile Include="lib\01-50\Challenge01.cpp" />
     <ClCompile Include="lib\01-50\Challenge02.cpp" />
@@ -59,6 +60,7 @@
     <ClInclude Include="Include\01-50\Challenge17.h" />
     <ClInclude Include="Include\01-50\Challenge18.h" />
     <ClInclude Include="Include\01-50\Challenge19.h" />
+    <ClInclude Include="Include\01-50\Challenge20.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

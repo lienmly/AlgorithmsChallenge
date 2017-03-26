@@ -89,7 +89,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\lib\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\Include\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\UnitTestAlgorithm;C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\lib\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\AlgorithmsChallenge\Algorithms\Include\01-50;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest;C:\Users\lienm\Documents\Visual Studio 2015\Projects\GoogleTest\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -149,6 +149,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Challenge01_Test.cpp" />
+    <ClCompile Include="Challenge07_Test.cpp" />
+    <ClCompile Include="Challenge18_Test.cpp" />
     <ClCompile Include="UnitTestAlgorithm.cpp" />
   </ItemGroup>
   <ItemGroup>
