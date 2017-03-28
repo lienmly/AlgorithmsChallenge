@@ -150,6 +150,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Challenge01_Test.cpp" />
+    <ClCompile Include="Challenge02_Test.cpp" />
     <ClCompile Include="Challenge07_Test.cpp" />
     <ClCompile Include="Challenge18_Test.cpp" />
     <ClCompile Include="UnitTestAlgorithm.cpp" />
