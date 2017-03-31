@@ -61,6 +61,7 @@
     <ClInclude Include="Include\01-50\Challenge18.h" />
     <ClInclude Include="Include\01-50\Challenge19.h" />
     <ClInclude Include="Include\01-50\Challenge20.h" />
+    <ClInclude Include="Include\01-50\Challenge21.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
