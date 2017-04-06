@@ -22,7 +22,20 @@ template <typename T>
 class BinarySearchTree {
 public:
 	// Constructors
+	BinarySearchTree(); 
+	BinarySearchTree(const vector<T>&); 
+	// Default copy constructor only implement shallow copy 
+	// => needs to overload to acquire deep copy  
+	BinarySearchTree(const BinarySearchTree& rhs);
 
+	// Destructor
+	~BinarySearchTree();
+
+	// Overload operators
+	BinarySearchTree& operator=(const BinarySearchTree& rhs);
+
+	template <typename T>
+	friend std::ostream& operator<<(std::ostream&, const BinarySearchTree<T>&);
 private:
 };
 
