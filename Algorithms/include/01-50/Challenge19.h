@@ -32,7 +32,7 @@ class LinkedList {
 public:
 	// Constructors
 	LinkedList(); 
-	LinkedList( const std::vector<T>&); 
+	LinkedList(const std::vector<T>&); 
 	// Default copy constructor only implement shallow copy 
 	// => needs to overload to acquire deep copy  
 	LinkedList(const LinkedList& rhs); 
